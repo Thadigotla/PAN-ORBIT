@@ -1,0 +1,74 @@
+.allUsers{
+    display: flex;
+    background-color: rgb(231, 177, 177);
+    width: 100vw;
+    height: 100vh;
+}
+
+.allUsers__Card
+{
+    background: rgb(224, 224, 224);
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    width: 35%;
+    padding: 5px;
+    /* color: rgba(247, 225, 204, 0.808); */
+}
+.allUsers__card_selectAccount{
+    display: block;
+    padding:2rem 3rem;
+    background-color: rgba(236, 229, 229, 0.836);
+    font-weight: 700;
+    color: rgb(51, 49, 51);
+    font-size: 1.2rem;
+      
+   
+
+}
+::-webkit-scrollbar{
+    width: 0%;
+    color: transparent;
+}
+
+
+.allUsers__card_accounts{
+    height: 50vh;
+    overflow-y: scroll;
+    padding: .5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:flex-start;
+    background-color: white;
+    
+    
+   
+   
+}
+.maintain{
+    display: flex;
+    padding: .7rem 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    /* margin: 0rem .2rem; */
+    /* background-color: red; */
+    width: 100%;
+   border-bottom: 1px solid rgb(128, 124, 124);
+}
+
+
+.allUsers__card_accounts_image{
+border-radius: 50%;
+width:12%;
+text-align: start;
+}
+.imgga{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.allUsers__card_accounts_Name{
+
+}
