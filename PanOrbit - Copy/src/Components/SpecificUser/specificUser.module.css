@@ -1,0 +1,382 @@
+.sHeader{
+    color: green;
+    /* background-color: red; */
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  2rem .8rem;
+    border-bottom: 1px solid rgb(175, 171, 171);
+    margin-bottom: 2.5rem;
+    
+}
+
+.AllMain{
+    margin-left: 20%;
+}
+
+ .All{
+ background-color: rgb(0, 68, 255);
+ position: absolute;
+ top: 1%;
+ left: 3%;
+ bottom: 1%;
+ padding: 5px 2rem;
+ width: 13%; 
+ border-radius: 1.5rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ 
+ 
+}
+
+ .chat{
+     
+     
+    background-color: blue;
+    color: white;
+    width: 110%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem 1rem;
+    /* border-radius: 14px 14px 0 0; */
+   
+} 
+
+.ChatIcon{
+    font-size: 2rem;
+    color: white;
+}
+.chatText{
+    font-size: 1.2rem;
+}
+.ChatIconIcon{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 4rem;
+    padding-right: 1rem;     
+}
+.slideItem{
+    
+    align-self: flex-start;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+     width: 100%;
+     text-align: start;
+     border-bottom: 1px solid rgb(170, 168, 168);
+     font-weight: 400;
+     letter-spacing: 1.2px;
+} 
+.slideItemHighLight{
+    align-self: flex-start;
+    color: rgb(175, 174, 174);
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 1rem 0;
+     width: 100%;
+     text-align: start;
+     border-bottom: 1px solid rgb(170, 168, 168);
+     font-weight: 400;
+     letter-spacing: 1.2px;
+}
+
+.gte{
+    color: black;
+    background-color: white;
+    height: fit-content;
+  width: fit-content;
+  border-top-left-radius: 90%;
+  border-bottom-left-radius: 90%;
+   padding: 10px;
+   position: relative;
+   background-blend-mode: hard-light;
+
+}
+.SignManage{
+    position: absolute;
+    top: 12%;
+    left: 78%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 40px .5px rgba(150, 149, 149, 0.548);
+}
+
+.gtee{
+    position: absolute;
+    z-index: 0;
+    height: 20px;
+    width: 10px;
+    background-color: red ; 
+    top: -10%;
+    mix-blend-mode: difference;
+    
+}
+.slideItem:last-child
+{
+   border-bottom: transparent;
+}
+.sHeaderDetails{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.realName{
+    padding: .5rem 0;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color:burlywood;
+}
+
+.sHeaderDetails1
+{   display: flex;
+    flex-direction: column;
+    padding-bottom: .4rem;
+}
+
+.sHeaderDetails2
+{   display: flex;
+    padding: .8rem 0;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(212, 210, 210);
+}
+
+.imgs{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(128, 128, 128);
+}
+.imgss{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(128, 128, 128);
+}
+.imgss{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+.imgss0{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.imgss1 ,.imgss2{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+/* .imgss2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+} */
+.signOut{
+    background-color: tomato;
+    width: fit-content;
+    margin: 0 auto;
+    padding: .6rem .8rem;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+}
+
+.sHeaderDetailsName{
+    padding: 0 .8rem;
+    text-align: center;
+    /* background-color: gainsboro; */
+   
+
+
+}
+.sHeaderDetailsEmail{
+    padding: .7rem .8rem;
+    text-align: center;
+    color: thistle;
+}
+
+.allDetailsMaintain{
+     
+    display: flex;
+    
+
+}
+
+.allDetailsMaintain_left{
+    width: 40%;
+    /* background-color: rgb(175, 171, 171); */
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(153, 152, 152);
+     
+}
+.allDetailsMaintain_right
+{
+    width: 50%;
+    /* background-color: gold; */
+}
+
+.allDetailsMaintain_left_userDetails{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.cc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+    /* background-color: red; */
+}
+
+
+ 
+.dd{
+    display: flex;
+    width: 100%;
+}
+.allDetailsUSEr{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    
+}
+.imageMaintain{
+    width: 100%;
+    display: flex;
+    margin: .1rem 0;
+    margin-top: 0%;
+    justify-content: center;
+ }
+ 
+
+ .otherDetials{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+
+.csdd{
+    display: flex;
+    padding: .8rem 0;
+}
+ 
+ 
+
+ .pDetailsUser{
+    width: 50%;
+    /* background-color: goldenrod; */
+    /* align-self: flex-end; */
+    text-align: end;
+    color: rgb(184, 183, 183);
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+ .pDetailsUser1{
+     width:50%;
+     /* background-color: hotpink; */
+     /* align-self: flex-start; */
+     text-align: start;
+    font-weight: 700;
+    font-size: 1.2rem; 
+    color: rgb(65, 63, 63);
+    }
+
+    .allDetailsMaintain_right{
+         
+        width: 50%;
+        
+     }
+     
+     .profil{
+         font-size: 1.3rem;
+         font-weight: 500;
+     }
+
+    .pDetailsUserff{
+        width:20%;
+       /* background-color: hotpink;  */
+       text-align: end;
+       font-weight: 400;
+       font-size: 1.2rem; 
+       color: rgb(206, 204, 204);
+    }
+
+    .DoChat{
+        
+    }
+    
+    .maintains{
+        display: flex;
+        padding: .7rem 1rem;
+        justify-content: flex-start;
+        align-items: center;
+        /* margin: 0rem .2rem; */
+        /* background-color: red; */
+        width: 100%;
+        border-bottom: 1px solid rgb(128, 124, 124);
+    }
+
+    .allUsers__card_accounts_images{
+        border-radius: 50%;
+        width:12%;
+        text-align: start;
+        }
+        .imgg{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+        }
+
+        .cchat{
+            position: absolute;
+            bottom:20%;
+            right: 20%;
+            
+        }
+        
+        .allUsers__card_accountss{
+            position: absolute;
+        
+            height: 50vh;
+            overflow-y: scroll;
+            /* padding: .5rem 0rem; */
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items:flex-start;
+            background-color: white;
+            box-shadow: 0px 0px 30px .5px rgb(184, 182, 182);
+             
+           
+        }
+        .DoChat{
+            height: 0vh;
+        }
+        .allUsers__card_accounts_Name{
+            padding-left: 2rem;
+        }
+
+        ::-webkit-scrollbar{
+            width: none;
+            color: transparent;
+            
+        }
